@@ -1,21 +1,34 @@
 #!/bin/bash
 
-#update repos
-apt-get update
-
-#install default tools
-apt-get install -y nano vim htop telnet git curl gcc openssh-server net-tools mlocate
-
-#enable ssh root login
-sed -i -e 's/PermitRootLogin/#PermitRootLogin/g' /etc/ssh/sshd_config
-
 #include setup
 if [ ! -z $1 ]
 then
-  source setups/$1.sh
-  reboot
+
+  if [ "$1" == "--help" ]
+  then
+    echo "sudo ./install --help:   Overzicht alle setupmogelijkheden"
+    echo "sudo ./install lnmp:     Nginx, MySQL5.6, PHP7.0"
+    echo "sudo ./install mongo:    MongoDB"
+  else
+
+
+    #update repos
+    #apt-get update
+
+    #install default tools
+    #apt-get install -y nano vim htop telnet git curl gcc openssh-server net-tools mlocate
+
+    #enable ssh root login
+    #sed -i -e 's/^PermitRootLogin/#PermitRootLogin/g' /etc/ssh/sshd_config
+
+    #run setup
+    source setups/$1.sh
+  
+    #reboot te load configs
+    #reboot
+
+  fi
 else
-  echo "============"
-  echo "Gebruik het commando als volgt: ./install.sh [software]"
-  echo "Voorbeeld: ./install.sh lnmp (installeert NGINX, MySQL5.6, PHP7)"
+  echo "Geen setup ingevoerd. Bekijk een overzicht via sudo ./setup --help"
 fi
+
