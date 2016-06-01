@@ -6,7 +6,7 @@ LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
 apt-get update
 
 #install webserver software
-apt-get -y install nginx nginx-extras php7.0 php7.0-mcrypt php7.0-fpm php7.0-gd php7.0-mysql php7.0-dev php7.0-curl mysql-server mysql-client python-mysqldb
+apt-get -y install nginx nginx-extras php7.0 php7.0-mcrypt php7.0-fpm php7.0-gd php7.0-mysql php7.0-dev php7.0-curl mysql-server mysql-client python-mysqldb php7.0-mbstring
 
 #set config files
 mkdir -p /var/www/html/public
