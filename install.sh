@@ -6,9 +6,9 @@ then
 
   if [ "$1" == "--help" ]
   then
-    echo "sudo ./install --help:   Overzicht alle setupmogelijkheden"
-    echo "sudo ./install lnmp:     Nginx, MySQL5.6, PHP7.0"
-    echo "sudo ./install mongo:    MongoDB"
+    echo "sudo ./install.sh --help:   Overzicht alle setupmogelijkheden"
+    echo "sudo ./install.sh lnmp:     Nginx, MySQL5.6, PHP7.0"
+    echo "sudo ./install.sh mongo:    MongoDB"
   else
 
 
@@ -29,6 +29,6 @@ then
 
   fi
 else
-  echo "Geen setup ingevoerd. Bekijk een overzicht via sudo ./setup --help"
+  echo "Geen setup ingevoerd. Bekijk een overzicht via sudo ./install.sh --help"
 fi
 
