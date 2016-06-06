@@ -23,7 +23,7 @@ then
 
     #run setup
     source setups/$1.sh
-  
+
     #reboot te load configs
     reboot
 
