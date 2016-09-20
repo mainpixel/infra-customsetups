@@ -18,3 +18,13 @@ cp -f setups/sources/lnmp/www.conf /etc/php/7.0/fpm/pool.d/www.conf
 #composer install
 wget https://getcomposer.org/composer.phar -O /usr/local/bin/composer
 chmod 755 /usr/local/bin/composer
+
+#nodejs / npm
+apt-get install npm #install npm
+apt-get install nodejs nodejs-legacy #install nodejs
+npm install --global gulp #install gulp
+npm install #install Elixir, require /var/ww/html/package.json
+
+#envoy
+composer global require "laravel/envoy=~1.0"
+ln -s /root/.config/composer/vendor/laravel/envoy/envoy /usr/local/bin/envoy
