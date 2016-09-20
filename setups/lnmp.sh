@@ -28,3 +28,7 @@ npm install #install Elixir, require /var/ww/html/package.json
 #envoy
 composer global require "laravel/envoy=~1.0"
 ln -s /root/.config/composer/vendor/laravel/envoy/envoy /usr/local/bin/envoy
+
+#phpmyadmin
+apt-get -y install phpmyadmin
+
