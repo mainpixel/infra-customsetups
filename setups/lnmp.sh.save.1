@@ -47,3 +47,13 @@ phpize
 ./configure
 make
 sudo make install
+
+#protobuf
+apt-get -y install protobuf-compiler
+cd /root
+git clone https://github.com/allegro/php-protobuf.git
+cd /root/php-protobuf
+phpize
+./configure
+make
+sudo make install
