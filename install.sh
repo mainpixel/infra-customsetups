@@ -9,6 +9,7 @@ then
   then
     echo "sudo ./install.sh --help:   Overzicht alle setupmogelijkheden"
     echo "sudo ./install.sh lnmp:     Nginx, MySQL5.6, PHP7.0"
+    echo "sudo ./install.sh lnmp5:    Nginx, MySQL5.6, PHP5.6"
     echo "sudo ./install.sh mongo:    MongoDB"
   else
 
