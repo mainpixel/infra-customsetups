@@ -11,23 +11,11 @@ then
     echo "sudo ./install.sh lnmp:     Nginx, MySQL5.6, PHP7.0"
     echo "sudo ./install.sh lnmp5:    Nginx, MySQL5.6, PHP5.6"
     echo "sudo ./install.sh mongo:    MongoDB"
+    echo "sudo ./install.sh vagrant:  Laravel 5.3, PHP 7"
   else
-
-
-    #update repos
-    apt-get update
-
-    #install default tools
-    apt-get install -y nano vim htop telnet git curl gcc openssh-server net-tools mlocate zip unzip whois
-
-    #enable ssh root login
-    sed -i -e 's/^PermitRootLogin/#PermitRootLogin/g' /etc/ssh/sshd_config
 
     #run setup
     source setups/$1.sh
-
-    #reboot te load configs
-    reboot
 
   fi
 else

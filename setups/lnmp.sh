@@ -1,4 +1,5 @@
 #!/bin/bash
+source ubuntuDefault.sh
 
 #repos for php 7
 apt-get -y install python-software-properties
