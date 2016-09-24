@@ -3,6 +3,6 @@ db.createUser(
    {
      user: "mainpixel",
      pwd: "vagrantDev",
-     roles: [ "readWrite", "dbAdmin" ]
+     roles: [ "root" ]
    }
 )
