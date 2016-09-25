@@ -11,5 +11,13 @@ You can choose one of the software compositions listed below.
 - LNMP5 (nginx, MySQL, PHP5 including Laravel moduels, PHP 5.6, WhatsApp modules)
 - Mongo (Just a Mongod server)
 
+## How to use
+Choose one of the setups:
+- sudo ./install.sh --help:   Up-to-date list of all posible  setups
+- sudo ./install.sh lnmp:     Nginx, MySQL5.6, PHP7.0
+- sudo ./install.sh lnmp5:    Nginx, MySQL5.6, PHP5.6
+- sudo ./install.sh mongo:    MongoDB
+- sudo ./install.sh vagrant:  Laravel 5.3, PHP 7
+
 ## Just for dev!
 This installer is written for easy setup a dev server. To prevent devers against abstacles Mongo, MySQL and other services aren't secured so users can access it from anywhere.
