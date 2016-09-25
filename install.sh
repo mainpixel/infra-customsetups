@@ -12,6 +12,7 @@ then
     echo "sudo ./install.sh lnmp5:    Nginx, MySQL5.6, PHP5.6"
     echo "sudo ./install.sh mongo:    MongoDB"
     echo "sudo ./install.sh vagrant:  Laravel 5.3, PHP 7"
+    echo "sudo ./install.sh whatsapp: Only run after \"vagrant\" to switch to php5 and all Whatsapp modules"
   else
 
     #run setup
