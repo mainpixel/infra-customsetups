@@ -13,12 +13,12 @@ You can choose one of the software compositions listed below.
 
 ## How to use
 Choose one of the setups:
-- sudo ./install.sh --help:   Up-to-date list of all posible  setups
-- sudo ./install.sh lnmp:     Nginx, MySQL5.6, PHP7.0
-- sudo ./install.sh lnmp5:    Nginx, MySQL5.6, PHP5.6
-- sudo ./install.sh mongo:    MongoDB
-- sudo ./install.sh vagrant:  Laravel 5.3, PHP 7
-- sudo ./install.sh whatsapp: Switch vagrant to PHP 5 for WhatsApp support (online in combination with Vagrant installer!)
+- sudo ./install.sh --help:	Up-to-date list of all posible  setups
+- sudo ./install.sh lnmp:	Nginx, MySQL5.6, PHP7.0
+- sudo ./install.sh lnmp5:	Nginx, MySQL5.6, PHP5.6
+- sudo ./install.sh mongo:	MongoDB
+- ./install.sh vagrant:		Laravel 5.3, PHP 7
+- ./install.sh whatsapp:	Switch vagrant to PHP 5 for WhatsApp support (online in combination with Vagrant installer!)
 
 ## Just for dev!
 This installer is written for easy setup a dev server. To prevent devers against abstacles Mongo, MySQL and other services aren't secured so users can access it from anywhere.
