@@ -1,8 +1,0 @@
-use admin
-db.createUser(
-   {
-     user: "mainpixel",
-     pwd: "vagrantDev",
-     roles: [ "root" ]
-   }
-)
