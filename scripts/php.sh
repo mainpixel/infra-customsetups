@@ -1,13 +1,15 @@
 #repos for php 7
 apt-get -y install python-software-properties
+apt-get -y install software-properties-common
+
 LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
 apt-get update
 
 #install php 7.1
-apt-get -y install php7.1 php7.1-mcrypt php7.1-fpm php7.1-gd php7.1-mysql php7.1-dev php7.1-curl php7.1-mbstring php7.1-dom php7.1-imap
+apt-get -y install php7.1 php7.1-mcrypt php7.1-fpm php7.1-gd php7.1-mysql php7.1-dev php7.1-curl php7.1-mbstring php7.1-dom php7.1-imap php7.1-zip
 
 #install php 7.0
-apt-get -y install php7.0 php7.0-mcrypt php7.0-fpm php7.0-gd php7.0-mysql php7.0-dev php7.0-curl php7.0-mbstring php7.0-dom php7.1-imap
+apt-get -y install php7.0 php7.0-mcrypt php7.0-fpm php7.0-gd php7.0-mysql php7.0-dev php7.0-curl php7.0-mbstring php7.0-dom php7.0-imap php7.0-zip
 
 #install php 5.6
 apt-get -y install php5.6 php5.6-mcrypt php5.6-fpm php5.6-gd php5.6-mysql php5.6-dev php5.6-curl php5.6-mbstring php5.6-dom
