@@ -6,10 +6,10 @@ LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
 apt-get update
 
 #install php 7.3
-apt-get -y install php7.3 php7.3-mcrypt php7.3-fpm php7.3-gd php7.3-mysql php7.3-dev php7.3-curl php7.3-mbstring php7.3.dom php7.3-imap php7.3-zip
+apt-get -y install php7.3 php7.3-fpm php7.3-gd php7.3-mysql php7.3-dev php7.3-curl php7.3-mbstring php7.3-imap php7.3-zip
 
 #install php 7.2
-apt-get -y install php7.2 php7.2-mcrypt php7.2-fpm php7.2-gd php7.2-mysql php7.2-dev php7.2-curl php7.2-mbstring php7.2-dom php7.2-imap php7.2-zip
+apt-get -y install php7.2 php7.2-fpm php7.2-gd php7.2-mysql php7.2-dev php7.2-curl php7.2-mbstring php7.2-imap php7.2-zip
 
 #install php 7.1
 apt-get -y install php7.1 php7.1-mcrypt php7.1-fpm php7.1-gd php7.1-mysql php7.1-dev php7.1-curl php7.1-mbstring php7.1-dom php7.1-imap php7.1-zip
