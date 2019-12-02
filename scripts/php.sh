@@ -20,6 +20,9 @@ apt-get -y install php7.0 php7.0-mcrypt php7.0-fpm php7.0-gd php7.0-mysql php7.0
 #install php 5.6
 apt-get -y install php5.6 php5.6-mcrypt php5.6-fpm php5.6-gd php5.6-mysql php5.6-dev php5.6-curl php5.6-mbstring php5.6-dom
 
+#install php xml extension
+apt install php-xml
+
 #copy php config files
 cp scripts/sources/php/www.conf-73 /etc/php/7.3/fpm/pool.d/www.conf
 cp scripts/sources/php/www.conf-72 /etc/php/7.2/fpm/pool.d/www.conf
